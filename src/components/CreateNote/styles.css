@@ -1,0 +1,52 @@
+form.create {
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);    
+    display: flex;
+    flex-direction: column;
+    margin: auto;   
+    padding: 20px;
+    position: relative;
+    width: 500px;
+}
+
+form.create>button {
+    position: absolute;
+    right: 20px;
+    bottom: -22px;
+    background-color: #b2dffb;
+    border: none;
+    border-radius: 50%;
+    color: #6983aa;
+    height: 45px;
+    width: 45px;
+}
+
+form.create>button:hover {
+    background-color: #3282b8;
+    color: #fff;
+}
+
+form.create>textarea {
+    border: none;
+    min-height: 70px;
+    overflow: hidden;
+    resize: vertical;
+}
+
+form.create>input{
+    border: none;
+    font-size: large;
+    padding: 10px 0;
+}
+
+form.create>textarea:focus,
+form.create>input:focus,
+form.create>button:focus {
+    outline: 0;
+}
+
+@media screen and (max-width: 550px) {
+    form.create {
+        width: 80%;
+    }
+}
