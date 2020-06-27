@@ -6,7 +6,7 @@ const CreateNote = (props) => {
 
     const [note, setNote] = useState({
         title: '',
-        details: ''
+        details: '',
     })
 
     const handleInputChange = (event) => {
