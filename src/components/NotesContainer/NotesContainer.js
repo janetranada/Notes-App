@@ -1,5 +1,6 @@
 import React from 'react';
 import Note from '../Note/Note';
+import './styles.css';
 
 const NotesContainer = (props) => {
     const { allNotes, deleteNote } = props;

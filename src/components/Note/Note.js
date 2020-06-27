@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles.css';
 
 
 const Note = (props) => {
@@ -10,10 +11,9 @@ const Note = (props) => {
 
     return (
         <div id={note.id} className='note'>
-            <p>{note.title}</p>
+            <h3>{note.title}</h3>
             <p>{note.details}</p>
-            <p>{note.id}</p>
-            <button onClick={handleClick}>DELETE</button>
+            <button className='delete' onClick={handleClick}>X</button>
         </div>
     );
 }

@@ -1,11 +1,6 @@
-.App {
-  text-align: center;
-}
-
 * {
   box-sizing: border-box;
   font-family: 'Comfortaa', sans-serif;
-
 }
 
 .header {
@@ -14,7 +9,8 @@
   color: #404969;
   margin-block-start: -19.92px;
   margin-block-end: 30px;
-  padding: 40px 20px 30px;  
+  padding: 40px 20px 30px;
+  text-align: center;  
 }
 
 .header h1 {

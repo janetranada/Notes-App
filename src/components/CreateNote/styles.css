@@ -1,6 +1,7 @@
 form.create {
+    background: #fff;
     border-radius: 8px;
-    box-shadow: 0 1px 5px rgb(138, 137, 137);    
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
     display: flex;
     flex-direction: column;
     margin: auto;   
@@ -13,17 +14,19 @@ form.create>button {
     position: absolute;
     right: 20px;
     bottom: -22px;
-    background-color: #b2dffb;
+    
     border: none;
     border-radius: 50%;
-    color: #6983aa;
+    
     height: 45px;
     width: 45px;
+    background-color: #3282b8;
+    color: #fff;
 }
 
 form.create>button:hover {
-    background-color: #3282b8;
-    color: #fff;
+    background-color: #b2dffb;
+    color: #6983aa;    
 }
 
 form.create>textarea {
